@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "BlueArrow - Starting to prepare that bad boi"
+echo "Initor - Starting to prepare that bad boi"
 echo "Checking..."
 
 # checking for config
