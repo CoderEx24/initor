@@ -36,5 +36,7 @@ eazy
 5. put other stuff in `scripts`
 6. push the changes to your repo
 
+(remember to remove the `.gitkeep` files from `dotfiles` and `scripts`)
 and that it. Now, you should have a way to make your linu distro the way you want
 
+if you want an example of how it works, see [my other repo](https://github.com/CoderEx24/blue-arrow)
