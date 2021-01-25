@@ -1,5 +1,7 @@
 # Initor
 
+**WARNING: THIS TEMPLATE IS NOT YET READY FOR USE, IT NEEDS TO BE TESTED AND IMPROVED**
+
 this is a template repository in order to create shell scripts that prepares minimum linux distrobutions (like [Arch Linux](https://archlinux.org) or [Gentoo](https://gentoo.org))
 
 ### How to works?
