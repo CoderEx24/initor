@@ -1,0 +1,6 @@
+install_cmd=''
+m_copy_dotfiles=1
+m_install_programs=1
+m_run_scripts=1
+m_remove_after_finish=0
+m_reboot=0
