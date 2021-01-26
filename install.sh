@@ -75,7 +75,12 @@ read -p "Proceed? [Y/n] " choice
 copy_dotfiles()
 {
     echo "Copying dotfiles"
-    cp -r -v ./dotfiles/* ~/
+    dotfiles=($(ls -A ./dotfiles))
+    for dotfile in "${dotfiles[@]}"
+    do
+        echo "Copying $dotfile"
+        cp ./dotfiles/$dotfile ~/
+    done
     echo "Done"
 }
 
