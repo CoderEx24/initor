@@ -27,6 +27,30 @@ This repository consists of the following:-
     This is where you would put other scripts that does other stuff. For example, maybe
     you want to clone all your amazing repos. You should make a script and put it there
 
+in `config`, there are a number of options you can set. These are
+
+1. `install_cmd`
+    This contains the command that you use to install software. it should include `sudo`, for example, for Arch Linux. `install_cmd` should be
+    set to `sudo pacman -S`
+
+2. `m_copy_dotfiles`
+    Whether to copy dotfiles or not, 1 for true, 0 for false
+
+3. `m_istall_sprograms`
+    Whether to install te programs listed inn `program_list` or not, 1 for true, 0 for false
+
+4. `m_run_scripts`
+    Whether to run the scripts inside `scripts/` or not, 1 for true, 0 for false
+
+5. `m_remove_after_finish`
+    Whether to remove the directory containing initor or not, 1 for true, 0 for false
+
+6. `m_reboot`
+    Whether to reboot after `install.sh` finishes or not, 1 for true, 0 for false
+
+`install_cmd` is mandentory. if it is blanck, the script exits
+the rest are optional. And the script will get a default value to an unconfigured option
+
 ### How to use it?
 eazy
 1. Click the `Use this template` to create another repo using this one as a starting point (note that you are not cloning the repo, for more details [click here](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template))
