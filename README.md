@@ -27,6 +27,9 @@ This repository consists of the following:-
     This is where you would put other scripts that does other stuff. For example, maybe
     you want to clone all your amazing repos. You should make a script and put it there
 
+6. `etc/`
+    This is where you would put anything that your scripts might need. 
+
 in `config`, there are a number of options you can set. These are
 
 1. `install_cmd`
