@@ -70,7 +70,10 @@ echo -e "install command is \"$install_cmd\""
 
 choice='y'
 read -p "Proceed? [Y/n] " choice
-[ "$choice" = "n" ] && (echo -e "exiting, sad :'("; exit 0)
+if [ "$choice" = "n" ]; then
+    echo -e "exiting, sad :'("
+    exit 0
+fi
 
 copy_dotfiles()
 {
